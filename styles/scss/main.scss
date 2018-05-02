@@ -14,6 +14,27 @@ body, html {
     font-family: $font-main;
 }
 
+.container {
+    padding: 80px 15.6vw;
+    position: relative;
+    p {
+        font-size: 14px;
+        color: $font-plain;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 35px;
+    }
+    p, h2, h6 {
+        padding-left: 1.7vw;
+        margin: 0 auto 30px;
+    }
+    h6 {
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
 // HEADER
 header {
     height: 100vh;
@@ -75,4 +96,11 @@ header {
     }
 }
 
-//
+//START SECTION
+.start {
+    .start-text-wide {
+        margin-top: 6%;
+    }
+}
+//GALLERY
+

@@ -5,6 +5,22 @@ body, html {
   margin: 0;
   font-family: "Open Sans", sans-serif; }
 
+.container {
+  padding: 80px 15.6vw;
+  position: relative; }
+  .container p {
+    font-size: 14px;
+    color: #959595; }
+  .container h2 {
+    font-weight: 300;
+    font-size: 35px; }
+  .container p, .container h2, .container h6 {
+    padding-left: 1.7vw;
+    margin: 0 auto 30px; }
+  .container h6 {
+    font-weight: 600;
+    font-size: 13px; }
+
 header {
   height: 100vh;
   min-height: 500px;
@@ -55,5 +71,8 @@ header {
     top: 77%;
     left: 67%;
     transform: translate(-50%, -50%); }
+
+.start .start-text-wide {
+  margin-top: 6%; }
 
 /*# sourceMappingURL=main.css.map */
