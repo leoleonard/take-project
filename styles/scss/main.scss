@@ -157,4 +157,50 @@ header {
 	.pic-2 {background: url("./../../img/pic-2.jpg") center/cover no-repeat}
 	.pic-3 {background: url("./../../img/pic-3.jpg") center/cover no-repeat}
 }
-//
+//DETAILS
+.details {
+    .pixel-perfect {
+        position: absolute;
+        display: inline-block;
+        top: 45%;
+        left: -4%;
+        transform: rotate(-90deg);
+        transform-origin: 100% 0%;
+        text-transform: uppercase;
+        font-weight: 300px;
+        font-size: 10px;
+        span {
+            padding-left: 8px;
+            font-weight: 600;
+        }
+    }
+}
+
+//POWER
+.power {
+    background: url("./../../img/power-background.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    .slogan {
+        color: $font-background;
+        position: absolute;
+        display: inline;
+        top:45%;
+        margin: 0 56% 0 17%;
+        min-width: 400px;
+        h1 {
+            margin: 0;
+            font-weight: 400;
+            font-size: 3em;
+        }
+        p {
+            font-size: .7em;
+        }
+        a {
+            text-decoration: none;
+            color: $font-background;
+        }
+    }
+}
+
