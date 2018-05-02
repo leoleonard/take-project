@@ -56,6 +56,20 @@ header {
     left: 67%;
     transform: translate(-50%, -50%); }
 
+@media (max-width: 767px) {
+  header .logo {
+    margin-top: 5vh; }
+  header .iphone {
+    top: 90%;
+    left: 80%; }
+  header .slogan {
+    top: 30%; }
+    header .slogan h1 {
+      font-size: 60px; }
+    header .slogan p {
+      font-size: 1.2em; }
+    header .slogan .pixel-perfect {
+      display: none; } }
 .container {
   padding: 80px 15.6vw;
   position: relative; }

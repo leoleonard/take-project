@@ -79,6 +79,29 @@ header {
         transform: translate(-50%, -50%);
     }
 }
+@media (max-width: 767px) {
+    header {
+        .logo {
+            margin-top: 5vh;
+        }
+        .iphone {
+            top: 90%;
+            left: 80%;
+        }
+        .slogan {
+            top: 30%;
+            h1 {
+                font-size: 60px;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            .pixel-perfect {
+                display: none;
+            }
+        }
+    }
+}
 
 //START SECTION
 .container {
@@ -156,6 +179,7 @@ header {
 	.pic-2 {background: url("./../../img/pic-2.jpg") center/cover no-repeat}
 	.pic-3 {background: url("./../../img/pic-3.jpg") center/cover no-repeat}
 }
+
 //DETAILS
 .details {
     .pixel-perfect {
