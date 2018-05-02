@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+header {
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  background: url("./../../img/header-background.jpg");
+  background-size: cover;
+  color: #fff; }
+  header .logo {
+    display: inline-block;
+    position: absolute;
+    top: 2.5%;
+    left: 17.5%;
+    height: 42px; }
+    header .logo p {
+      float: right;
+      top: -10px;
+      font-size: 21px;
+      line-height: 42px;
+      margin: 0 5px; }
+  header .slogan {
+    position: absolute;
+    display: inline;
+    top: 45%;
+    margin: 0 56.4% 0 17.5%;
+    min-width: 400px; }
+    header .slogan h1 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 3em; }
+    header .slogan p {
+      font-size: .7em; }
+  header .pixel-perfect {
+    position: absolute;
+    display: inline-block;
+    top: 45%;
+    left: -4%;
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+    text-transform: uppercase;
+    font-weight: 300px;
+    font-size: 10px; }
+    header .pixel-perfect span {
+      padding-left: 8px;
+      font-weight: 600; }
+  header .iphone {
+    position: absolute;
+    top: 77%;
+    left: 67%;
+    transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=main.css.map */
