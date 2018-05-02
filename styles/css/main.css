@@ -219,4 +219,42 @@ header {
         background-color: #27ae60;
         transition: 0.4s; }
 
+footer {
+  background-color: #192431;
+  color: #fff;
+  font-size: 13px; }
+  footer h6 {
+    margin: 0;
+    padding: 0; }
+  footer input {
+    height: 25px;
+    width: 100%; }
+  footer .email-input {
+    margin: 0; }
+  footer .submitButton {
+    margin: 0;
+    background-color: #8C9;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border: none; }
+  footer .contact-paragraph {
+    font-size: 12px;
+    color: #57697f;
+    margin: 10px 0; }
+  footer .send-spam {
+    font-size: 12px;
+    color: #57697f;
+    margin: 10px 0; }
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 1.7vw; }
+    footer ul li {
+      padding-bottom: 5px; }
+      footer ul li a {
+        color: inherit;
+        text-decoration: none;
+        padding-bottom: 5px; }
+
 /*# sourceMappingURL=main.css.map */
