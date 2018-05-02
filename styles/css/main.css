@@ -5,22 +5,6 @@ body, html {
   margin: 0;
   font-family: "Open Sans", sans-serif; }
 
-.container {
-  padding: 80px 15.6vw;
-  position: relative; }
-  .container p {
-    font-size: 14px;
-    color: #959595; }
-  .container h2 {
-    font-weight: 300;
-    font-size: 35px; }
-  .container p, .container h2, .container h6 {
-    padding-left: 1.7vw;
-    margin: 0 auto 30px; }
-  .container h6 {
-    font-weight: 600;
-    font-size: 13px; }
-
 header {
   height: 100vh;
   min-height: 500px;
@@ -72,7 +56,70 @@ header {
     left: 67%;
     transform: translate(-50%, -50%); }
 
-.start .start-text-wide {
-  margin-top: 6%; }
+.container {
+  padding: 80px 15.6vw;
+  position: relative; }
+  .container p {
+    font-size: 14px;
+    color: #959595; }
+  .container h2 {
+    font-weight: 300;
+    font-size: 35px; }
+  .container p, .container h2, .container h6 {
+    padding-left: 1.7vw;
+    margin: 0 auto 30px; }
+  .container h6 {
+    font-weight: 600;
+    font-size: 13px; }
+  .container .start-text-wide {
+    margin-top: 6%; }
+
+.gallery p, .gallery h2, .gallery a, .gallery i {
+  color: #fff;
+  margin: 0 auto 30px; }
+.gallery h2 {
+  font-weight: 300;
+  font-size: 30px; }
+.gallery p {
+  font-size: 13px; }
+.gallery a {
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 40px; }
+.gallery i {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  font-size: 18px; }
+.gallery [class*="pic-"] {
+  height: 300px;
+  padding: 50px 30px;
+  position: relative; }
+  .gallery [class*="pic-"]:hover {
+    transition: 0.5s;
+    opacity: 0.6; }
+.gallery .fa-heart {
+  opacity: 0;
+  cursor: pointer; }
+  .gallery .fa-heart:hover {
+    transition: 0.5s;
+    opacity: 1; }
+.gallery .square-1 {
+  background-color: #F5989D; }
+.gallery .square-2 {
+  background-color: #615F7D; }
+.gallery .square-3 {
+  background-color: #BD8CBF; }
+.gallery .square-4 {
+  background-color: #82CA9C; }
+.gallery .pic-1 {
+  background: url("./../../img/pic-1.jpg") center/cover no-repeat; }
+.gallery .pic-2 {
+  background: url("./../../img/pic-2.jpg") center/cover no-repeat; }
+.gallery .pic-3 {
+  background: url("./../../img/pic-3.jpg") center/cover no-repeat; }
 
 /*# sourceMappingURL=main.css.map */

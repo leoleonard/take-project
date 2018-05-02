@@ -14,26 +14,11 @@ body, html {
     font-family: $font-main;
 }
 
-.container {
-    padding: 80px 15.6vw;
-    position: relative;
-    p {
-        font-size: 14px;
-        color: $font-plain;
-    }
-    h2 {
-        font-weight: 300;
-        font-size: 35px;
-    }
-    p, h2, h6 {
-        padding-left: 1.7vw;
-        margin: 0 auto 30px;
-    }
-    h6 {
-        font-weight: 600;
-        font-size: 13px;
-    }
-}
+$square-1: #F5989D;
+$square-2: #615F7D;
+$square-3: #BD8CBF;
+$square-4: #82CA9C;
+
 
 // HEADER
 header {
@@ -97,10 +82,79 @@ header {
 }
 
 //START SECTION
-.start {
+.container {
+    padding: 80px 15.6vw;
+    position: relative;
+    p {
+        font-size: 14px;
+        color: $font-plain;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 35px;
+    }
+    p, h2, h6 {
+        padding-left: 1.7vw;
+        margin: 0 auto 30px;
+    }
+    h6 {
+        font-weight: 600;
+        font-size: 13px;
+    }
     .start-text-wide {
         margin-top: 6%;
     }
-}
+}   
 //GALLERY
-
+.gallery {
+    p, h2, a, i {
+		color: $font-background;
+		margin: 0 auto 30px; 
+	}
+	h2 {
+		font-weight: 300;
+        font-size: 30px;
+	}
+	p {
+        font-size: 13px;
+	}
+	a {
+		font-weight: 700; 
+		font-size: 14px;
+		text-decoration: none;
+		position: absolute;
+		bottom: 0;
+        left: 40px;
+	}
+	i {
+		position: absolute;
+		bottom: 0;
+		right: 40px;
+		font-size: 18px; 
+	}
+	[class*="pic-"] {
+		height: 300px;
+		padding: 50px 30px;
+		position: relative;
+		&:hover {
+			transition: 0.5s;
+			opacity: 0.6;
+		}
+	}
+	.fa-heart {
+			opacity: 0;
+			cursor: pointer;
+			&:hover {
+				transition: 0.5s;
+				opacity: 1;
+			}
+		}
+	.square-1 {background-color: $square-1}
+	.square-2 {background-color: $square-2}
+	.square-3 {background-color: $square-3}
+	.square-4 {background-color: $square-4}
+	.pic-1 {background: url("./../../img/pic-1.jpg") center/cover no-repeat}
+	.pic-2 {background: url("./../../img/pic-2.jpg") center/cover no-repeat}
+	.pic-3 {background: url("./../../img/pic-3.jpg") center/cover no-repeat}
+}
+//

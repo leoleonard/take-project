@@ -1,11 +1,16 @@
-/* CLEARFIX METHOD */
-.clearfix:before,
-.clearfix:after {
+/* ROW METHOD */
+.row:before,
+.row:after {
     content: " ";
     display: table;
 }
-.clearfix:after {
+.row:after {
     clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	min-height: 1px;
 }
 
 [class*='col-'] {
